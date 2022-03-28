@@ -1,0 +1,147 @@
+/*
+    This file does contain all important css-Declarations for the theme of the App.
+*/
+
+/*Reset Section*/
+li,ul{
+    padding: 0;
+    margin: 0;
+}
+
+/*General Formatting*/
+#app{
+    height: 100vh;
+}
+
+
+/*Defining theme variables*/
+:root{
+    --colorBackgroundDarkGray: #3B3B3B;
+    --colorBackgroundDarkGrayHover: #3f3f3f;
+    --colorBackgroundMediumGray: #4E4F4F;
+    --colorBackgroundLightGray: #656666;
+    --colorBackgroundLightGrayHover: #8f8e8e;
+    --colorPlaceholderText: #a3a3a3;
+    --colorAccent: #A00041;
+    --colorAccentHover : #B3024A;
+    --colorBlue: #63CCFF;
+    --colorGreen: #67FF0F;
+    --colorYellow: #FFD13F;
+}
+
+/*Defining Background Classes*/
+.bckgrnd-darkgray,
+.bckgrnd-darkgray-hoverable{
+    background: var(--colorBackgroundDarkGray);
+}
+
+.bckgrnd-mediumgray{
+    background:var(--colorBackgroundMediumGray);
+}
+
+.bckgrnd-lightgray,
+.bckgrnd-lightgray-hoverable{
+    background: var(--colorBackgroundLightGray);
+}
+
+.bckgrnd-accent,
+.bckgrnd-accent-hoverable{
+    background: var(--colorAccent);
+}
+
+.bckgrnd-accent-hoverable:hover{
+    background: var(--colorAccentHover);
+}
+
+.bckgrnd-darkgray-hoverable:hover{
+    background: var(--colorBackgroundDarkGrayHover);
+}
+
+.bckgrnd-lightgray-hoverable:hover{
+    background: var(--colorBackgroundLightGrayHover);
+}
+
+/*Font-Formattings*/
+.h1{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.lighter-font{
+    font-weight: lighter;
+}
+
+.bold-font{
+    font-weight: bold;
+}
+
+.font-secondary{
+    opacity: 0.5;
+    font-weight: lighter;
+    white-space: pre-wrap;
+}
+
+/*Scrollbar Formattings*/
+body::-webkit-scrollbar{
+    width: 0.35em;
+}
+
+body::-webkit-scrollbar-track{
+    background: var(--colorBackgroundDarkGray);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: var(--colorBackgroundLightGray);
+    box-shadow: 0px 0px 6px 1px var(--colorBackgroundDarkGrayHover);
+    border-radius: 8px;
+}
+
+/*Dropdown formattings*/
+.dropdown-item:hover{
+    background-color: var(--colorAccent);
+}
+
+/*Checkbox formattings*/
+.form-check-input{
+  border: 2px solid var(--colorBackgroundLightGray);
+}
+  
+.form-check-input{
+  background: transparent;
+}
+  
+.form-check-input:checked{
+  background-color: var(--colorAccent);
+}
+
+input[type="checkbox"]:focus,
+input[type="checkbox"]:enabled,
+.uneditable-input:focus {   
+  border-color: rgba(196, 196, 196, 0);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(255, 255, 255, 0.171);
+  outline: 0 none;
+}
+
+/*Other Formattings*/
+.half-opacity{
+    opacity: 0.5;
+}
+
+.break-word{
+    word-break: break-all;
+}
+
+
+/*util*/
+.debug{
+    background-color: #ff00dd;
+}
+
+.debug-2{
+    background-color: #00ffc8;
+}
+
+.debug-3{
+    background-color: #b3ff00;
+}

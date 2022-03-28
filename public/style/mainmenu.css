@@ -1,0 +1,36 @@
+/*This file contains all formattings regarding the Main Menu which are necessary to be defined globally*/
+
+/*Large Screens*/
+@media only screen and (min-width: 1000px) {
+  :root{
+    --main-nav-width: 20em;
+    --main-nav-height: 100vh;
+    --main-area-left-padding: var(--main-nav-width);
+    --main-area-bottom-padding: 0;
+    --main-area-top-padding: 0;
+  }
+
+  .mobile-appbar{
+    visibility: collapse;
+    height: 0px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/*Small Screens*/
+@media only screen and (max-width: 1000px) {
+  :root{
+    --main-nav-width: 100vw;
+    --main-nav-height: 6em;
+    --main-area-left-padding: 0;
+    --main-area-bottom-padding: var(--main-nav-height);
+    --mobile-appbar-height: 3em;
+    --main-area-top-padding: 4em;
+    
+  }
+
+  .mobile-appbar{
+    height: var(--mobile-appbar-height);
+  }
+}
