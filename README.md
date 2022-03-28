@@ -22,6 +22,7 @@ Compared to to the original WPF-Version, this Version has the following feature 
 | Export Setlist as a `m3u`-File|✔️|❌|
 | Autogenerate Setlists|✔️|❌|
 
-## Further Notes
-As this Project was created in Kontext of a Study-Thesis, it is completely in German.
+## Very important Notes !!
+- As this Project was created in Kontext of a Study-Thesis, it is completely in German.
+- For storing data, this Project uses the local broweser cache as there is no backend-implementation. Please make sure to set your browser to not clear the cache of this App, otherwise Application-data is lost after closing the App. Alternatively, you can create a JSON-backup regulary using the export/import feature.
 
