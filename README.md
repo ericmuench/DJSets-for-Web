@@ -26,3 +26,14 @@ Compared to to the original WPF-Version, this Version has the following feature 
 - As this Project was created in Kontext of a Study-Thesis, it is completely in German.
 - For storing data, this Project uses the local broweser cache as there is no backend-implementation. Please make sure to set your browser to not clear the cache of this App, otherwise Application-data is lost after closing the App. Alternatively, you can create a JSON-backup regulary using the export/import feature.
 
+## Images
+### All Songs UI
+![Manage all of your Songs!](https://github.com/ericmuench/DJSets-for-Web/raw/main/img/SongsView.jpg "Manage all of your Songs")
+### Edit Songs UI
+![Edit your Songs!](https://github.com/ericmuench/DJSets-for-Web/raw/main/img/EditSongView.jpg "Edit your Songs!")
+### All Setlists UI
+![Manage all of your Setlists!](https://github.com/ericmuench/DJSets-for-Web/raw/main/img/SetlistsView.jpg "Manage all of your Setlists")
+### Setlist-Detail UI
+![Manage a Setlist!](https://github.com/ericmuench/DJSets-for-Web/raw/main/img/SetlistView.jpg "Manage a Setlist")
+### Settings UI
+![Change App-Data in the settings!](https://github.com/ericmuench/DJSets-for-Web/raw/main/img/SettingsView.jpg "Change App-Data in the settings")
